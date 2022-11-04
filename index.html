@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/a93dcd4dc8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,500;1,600;1,700&display=swap">
+    <link rel="stylesheet" href="./sass/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="nav">
+            <a href="#" class="nav__logo">
+                <span class="nav__logo--upper">
+                    WORK<span class="nav__logo--accent">OUT</span>
+                </span>
+                <span class="nav__logo--lower">
+                    Believe in yourself
+                </span>
+            </a>
+
+            <a href="#" class="nav__logo--small">
+                <svg width="44" height="18" viewBox="0 0 44 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M25.8591 0.349711L21.258 18H16.0534L13.2374 6.384L10.3208 18H5.11627L0.640845 0.349711H5.24199L7.78142 13.1977L10.9243 0.349711H15.6511L18.6683 13.1977L21.2328 0.349711H25.8591Z"
+                        fill="#F2F2F2" />
+                    <path
+                        d="M38.2485 18L32.3148 10.2057V18H28.0153V0.349711H32.3148V8.09371L38.1982 0.349711H43.2519L36.413 8.99886L43.5033 18H38.2485Z"
+                        fill="#F2F2F2" />
+                    <path
+                        d="M38.2485 18L32.3148 10.2057V18H28.0153V0.349711H32.3148V8.09371L38.1982 0.349711H43.2519L36.413 8.99886L43.5033 18H38.2485Z"
+                        fill="#F24B88" />
+                </svg>
+
+            </a>
+
+            <label class="burger-wrapper">
+                <input type="checkbox" class="menu-checkbox" value="yes">
+                <div class="burger">
+                    <div class="burger__line"></div>
+                    <div class="burger__line"></div>
+                    <div class="burger__line"></div>
+                </div>
+
+
+
+                <menu class="nav-menu">
+                    <li class="nav-menu__item"><a href="#" class="nav-menu__link">EXERCICES</a></li>
+                    <li class="nav-menu__item"><a href="#" class="nav-menu__link">COMMUNITY</a></li>
+                    <li class="nav-menu__item"><a href="#" class="nav-menu__link">PRICING</a></li>
+                    <li class="nav-menu__item"><a href="#" class="nav-menu__link">ABOUT US</a></li>
+                    <div class="btn-wrapper">
+                        <button class="button nav-menu__btn" onclick="document.getElementById('id01').style.display='block'">LOGIN</button>
+                        <button class="button nav-menu__btn nav-menu__btn--transparent">SIGN IN</button>
+                    </div>
+                </menu>
+            </label>
+
+        </header>
+
+        <section class="hero">
+            <div class="hero__offer">
+
+                <div class="hero__title">
+                    <h1 class="hero__title--main">
+                        4 WEEK
+                    </h1>
+                    <span class="hero__title--sub">
+                        Workout Plan
+                    </span>
+                </div>
+
+                <p class="hero__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringilla, lacus eget consequat
+                    tincidunt, lectus ex bibendum libero, eget iaculis quam arcu quis mauris. Donec ex neque, egestas in
+                    faucibus.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                </p>
+
+                <button class="button button--big hero__btn">TRY FOR FREE</button>
+            </div>
+            <figure class="hero__img img-hover-zoom hero-zoom">
+                <img src="./img/hero-big.jpg" alt="girl workout big" class="hero__img--big">
+                <img src="./img/hero-small.jpg" alt="girl workout big" class="hero__img--small">
+            </figure>
+            <div class="hero__cards">
+                <div class="hero-card">
+                    <h2 class="hero-card__title">GET INSPIRED</h2>
+                    <p class="hero-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                        fringil.
+                        lacus eget consequat tincidunt, lectus ex.</p>
+                    <a href="#" class="hero-card__btn">
+                        <div class="arrow">
+                            <svg width="13" height="11" viewBox="0 0 11 11" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0.464871 9.50128C0.169327 9.7915 0.169327 10.262 0.464871 10.5523C0.760415 10.8425 1.23959 10.8425 1.53513 10.5523L0.464871 9.50128ZM10.9492 1C10.9492 0.589573 10.6104 0.256853 10.1924 0.256853L3.38131 0.256853C2.96334 0.256853 2.62452 0.589573 2.62452 1C2.62452 1.41044 2.96334 1.74316 3.38131 1.74316H9.4356V7.68836C9.4356 8.09879 9.77443 8.43151 10.1924 8.43151C10.6104 8.43151 10.9492 8.09879 10.9492 7.68836L10.9492 1ZM1.53513 10.5523L10.7275 1.52549L9.65726 0.474517L0.464871 9.50128L1.53513 10.5523Z"
+                                    fill="#F2F2F2" />
+                            </svg>
+                        </div>
+                        Explore More
+                    </a>
+                </div>
+
+                <div class="hero-card">
+                    <h2 class="hero-card__title">GET INSPIRED</h2>
+                    <p class="hero-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                        fringil.
+                        lacus eget consequat tincidunt, lectus ex.</p>
+                    <a href="#" class="hero-card__btn">
+                        <div class="arrow">
+                            <svg width="13" height="11" viewBox="0 0 11 11" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0.464871 9.50128C0.169327 9.7915 0.169327 10.262 0.464871 10.5523C0.760415 10.8425 1.23959 10.8425 1.53513 10.5523L0.464871 9.50128ZM10.9492 1C10.9492 0.589573 10.6104 0.256853 10.1924 0.256853L3.38131 0.256853C2.96334 0.256853 2.62452 0.589573 2.62452 1C2.62452 1.41044 2.96334 1.74316 3.38131 1.74316H9.4356V7.68836C9.4356 8.09879 9.77443 8.43151 10.1924 8.43151C10.6104 8.43151 10.9492 8.09879 10.9492 7.68836L10.9492 1ZM1.53513 10.5523L10.7275 1.52549L9.65726 0.474517L0.464871 9.50128L1.53513 10.5523Z"
+                                    fill="#F2F2F2" />
+                            </svg>
+                        </div>
+                        Explore More
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- /.hero -->
+
+        <section class="trainings">
+            <div class="section__header">
+                <h2 class="section__title">
+                    latest training
+                </h2>
+                <a href="#" class="section__btn">SEE MORE HERE</a>
+            </div>
+            <div class="trainings__cards">
+                <div class="training-card">
+                    <div class="img-hover-zoom">
+                        <img src="./img/trainings/card1.png" alt="" class="training-card__img">
+                    </div>
+                    <a href="#" class="training-card__title">running</a>
+                    <p class="training-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                        fringilla, lacus eget consequat </p>
+                    <a href="#" class="button button--small">SEE MORE</a>
+                </div>
+
+                <div class="training-card">
+                    <div class="img-hover-zoom">
+                        <img src="./img/trainings/card2.png" alt="" class="training-card__img">
+                    </div>
+                    <a href="#" class="training-card__title">running</a>
+                    <p class="training-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                        fringilla, lacus eget consequat </p>
+                    <a href="#" class="button button--small">SEE MORE</a>
+                </div>
+
+                <div class="training-card">
+                    <div class="img-hover-zoom">
+                        <img src="./img/trainings/card3.png" alt="" class="training-card__img">
+                    </div>
+                    <a href="#" class="training-card__title">running</a>
+                    <p class="training-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                        fringilla, lacus eget consequat </p>
+                    <a href="#" class="button button--small">SEE MORE</a>
+                </div>
+            </div>
+        </section>
+        <!-- /.trainings -->
+
+        <section class="team">
+            <div class="section__header">
+                <h2 class="section__title">Our team</h2>
+                <a href="#" class="section__btn">SEE MORE HERE</a>
+            </div>
+            <div class="staff">
+                <div class="staff__item">
+                    <figure class="staff__photo  img-hover-zoom">
+                        <img class="staff__photo--big" src="./img/team/team-img1.png" alt="Jamie Ford personal trainer">
+                        <img class="staff__photo--small" src="./img/team/small/team-small-img1.png"
+                            alt="Jamie Ford personal trainer">
+                    </figure>
+                    <div class="staff__card">
+                        <a href="#" class="staff__name">jamies ford</a>
+                        <span class="staff__position">trainer</span>
+                        <p class="staff__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                            fringilla,
+                            lacus eget consequat </p>
+                        <a href="#" class="staff__btn button button--small">SEE MORE</a>
+                    </div>
+                </div>
+
+                <div class="staff__item">
+                    <figure class="staff__photo  img-hover-zoom ">
+                        <img class="staff__photo--big" src="./img/team/team-img2.jpg" alt="Jamie Ford personal trainer">
+                        <img class="staff__photo--small" src="./img/team/small/team-small-img2.png"
+                            alt="Jamie Ford personal trainer">
+                    </figure>
+                    <div class="staff__card">
+                        <a href="#" class="staff__name">eddie smith</a>
+                        <span class="staff__position">trainer</span>
+                        <p class="staff__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                            fringilla,
+                            lacus eget consequat </p>
+                        <a href="#" class="staff__btn button button--small">SEE MORE</a>
+                    </div>
+                </div>
+
+                <div class="staff__item">
+                    <figure class="staff__photo  img-hover-zoom">
+                        <img class="staff__photo--big" src="./img/team/team-img3.jpg" alt="Jamie Ford personal trainer">
+                        <img class="staff__photo--small" src="./img/team/small/team-small-img3.png"
+                            alt="Jamie Ford personal trainer">
+                    </figure>
+                    <div class="staff__card">
+                        <a href="#" class="staff__name">annie summer</a>
+                        <span class="staff__position">trainer</span>
+                        <p class="staff__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                            fringilla,
+                            lacus eget consequat </p>
+                        <a href="#" class="staff__btn button button--small">SEE MORE</a>
+                    </div>
+                </div>
+
+                <div class="staff__item">
+                    <figure class="staff__photo  img-hover-zoom">
+                        <img class="staff__photo--big" src="./img/team/team-img4.jpg" alt="Jamie Ford personal trainer">
+                        <img class="staff__photo--small" src="./img/team/small/team-small-img4.png"
+                            alt="Jamie Ford personal trainer">
+                    </figure>
+                    <div class="staff__card">
+                        <a href="#" class="staff__name">emily sea</a>
+                        <span class="staff__position">trainer</span>
+                        <p class="staff__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                            fringilla,
+                            lacus eget consequat </p>
+                        <a href="#" class="staff__btn button button--small">SEE MORE</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /.team -->
+    </div>
+
+    <section class="plans">
+        <div class="plans__info">
+            <h2 class="plans__title">
+                DISCOVER YOUR POTENCIAL
+            </h2>
+            <p class="plans__text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi cupiditate repellendus consequuntur
+                architecto ea saepe beatae aperiam soluta nulla sapiente?
+            </p>
+        </div>
+        <div class="plans__btns">
+            <button class="button button--big">VIEW PLANS</button>
+            <button class="button button--big transparent">LEARN MORE</button>
+        </div>
+
+    </section>
+    <!-- /.plans -->
+    <div class="container">
+        <footer>
+            <div class="site-footer">
+                <a href="#" class="site-footer__logo">
+                    <picture>
+                        <source media="(min-width: 500px)" srcset="./img/logo-big.svg">
+                        <source media="(max-width: 499px)" srcset="./img/logo-small.svg">
+                        <img src="./img/logo-small.svg" alt="logo">
+                    </picture>
+                </a>
+
+                <figure class="site-footer__info">
+                    <figcaption class="site-footer__title">info</figcaption>
+                    <ul class="site-footer__info-list">
+                        <li class="site-footer__item"><a href="#" class="site-footer__link">About</a></li>
+                        <li class="site-footer__item"><a href="#" class="site-footer__link">Careers</a></li>
+                        <li class="site-footer__item"><a href="#" class="site-footer__link">Press</a></li>
+                        <li class="site-footer__item"><a href="#" class="site-footer__link">Product Updates</a></li>
+                    </ul>
+                </figure>
+
+                <figure class="site-footer__contacts">
+                    <figcaption class="site-footer__title">get in touch</figcaption>
+                    <ul class="site-footer__contacts">
+                        <li class="site-footer__item"><a href="" class="site-footer__link">About Us</a></li>
+                        <li class="site-footer__item"><a href="" class="site-footer__link">Support</a></li>
+                        <li class="site-footer__item"><a href="https://t.me/MykolaMatus"
+                                class="site-footer__link">Contact Us</a></li>
+                    </ul>
+                </figure>
+
+                <ul class="site-footer__social-networks">
+                    <a href="https://www.facebook.com/nikola.matus.9/" class="site-footer__socials"><i
+                            class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/latin_kate_mariupol/" class="site-footer__socials"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/elonmusk" class="site-footer__socials"><i
+                            class="fa-brands fa-twitter"></i></a>
+                    <a href="https://wa.me/380681661673?text=Hello%20Hello%20my%20dear%20friend"
+                        class="site-footer__socials"><i class="fa-brands fa-whatsapp"></i></a>
+                </ul>
+            </div>
+
+            <div class="copyright">
+                <div class="copyright__rights">
+                    Copyright &#169; 2021 Enisson Lemos | All right reserved
+                </div>
+                <div class="copyright__terms">
+                    Terms & Conditions
+                </div>
+            </div>
+        </footer>
+        <!-- /.footer -->
+    </div>
+
+    <!-- Modal Windows for Log In -->
+    <div id="id01" class="modal">      
+        <!-- Modal Content -->
+        <form class="modal-content animate" action="/action_page.php">
+            <span onclick="document.getElementById('id01').style.display='none'"
+            class="close" title="Close Modal">&times;</span>
+          <div class="login-container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+      
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+      
+            <button class="login__btn" type="submit">Login</button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+          </div>
+      
+          <div class="login-container">
+            <button class="login__btn" type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+          </div>
+        </form>
+      </div>
+    <script src="./src/script.js"></script>
+</body>
+
+</html>
